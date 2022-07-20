@@ -35,7 +35,7 @@
 						<li><a href="#about" class="active">About</a></li>
 						<li><a href="#research">Research</a></li>
 						<li><a href="#publications">Publications</a></li>
-						<li><a href="#projects">Projects</a></li>
+						<!-- <li><a href="#projects">Projects</a></li> -->
 						<!-- <li><a href="#teaching">Teaching</a></li>
 						<li><a href="#outreach">Outreach</a></li> -->
 					</ul>
@@ -118,17 +118,17 @@
 											<article>
 												<!-- <iframe width="340" height="200" src="https://www.youtube.com/embed/oVbP-Y8xT_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 										
-												<a href="images/contact_estimation.png" class="image"><img src="images/contact_estimation.png" alt="" /></a>
+												<a href="images/PCR.png" class="image"><img src="images/PCR.png" alt="" /></a>
 												<div class="inner">
-													<h4>Legged Robot State Estimation using Invariant Kalman Filtering and Learned Contact Events</h4>
+													<h4>Providers-Clients-Robots</h4>
 													<p>
-														We developed a learning-based contact estimator for legged robots that bypasses the need for physical sensors and takes multi-modal proprioceptive sensory data as input. The trained network can estimate contact events on different terrains and is deployed along with a contact-aided invariant extended Kalman filter (InEKF). This network allows legged robot state estimators to benefit from foot contact information without having a physical contact sensor. The proposed state estimation pipeline runs real-time with an NVIDIA AGX Jetson on an MIT Mini Cheetah robot. All codes are open-sourced to the public.
+														This work proposes a novel architecture recognizing three interacting parties, Providers (people in-charge at an establishment), Clients (visitors of the establishment), and Robots (PCR) that are involved in a socially assistive setting. We present an instance of a spatial interaction pipeline within a PCR framework for applications in socially assistive robots detailing a mapping and planning pipeline with the context of a robot in indoor spaces such as an office building, museum, art gallery, or shopping mall. The proposed pipeline successfully uses a shared understanding of the environment for improved and interactive planning. Within the PCR framework, we solve the planning problem as one of understanding and encoding preferences from the Providers and the Clients into planning Robot behavior. 
 
 														<br>
 														
 														<a href="https://openreview.net/forum?id=yt3tDB67lc5" target="_blank">[Paper]</a><br>
-														<a href="https://github.com/UMich-CURLY/deep-contact-estimator" target="_blank">[Deep-Contact-Estimator]</a><br>
-														<a href="https://github.com/UMich-CURLY/cheetah_inekf_realtime" target="_blank">[Invariant-EKF for Mini Cheetah]</a>
+														<!-- <a href="https://github.com/UMich-CURLY/deep-contact-estimator" target="_blank">[Deep-Contact-Estimator]</a><br> -->
+														<a href="https://github.com/UMich-CURLY/spatial_interaction" target="_blank">[Code]</a>
 														
 													</p>
 													
@@ -136,47 +136,16 @@
 												<!-- <a href="images/cvo_traj.png" class="image"><img src="images/cvo_traj.png" alt="" /></a> -->
 											</article>
 											<article>
-												<a href="images/cvo.png" class="image"><img src="images/cvo.png" alt="" /></a>
+												<a href="images/IRL.png" class="image"><img src="images/IRL.png" alt="" /></a>
 												
 												<div class="inner">
-													<h4>Continuous Visual Odometry</h4>
+													<h4>Inverse Reinforcement Learning based Local Planner Design in Crowded Environment</h4>
 													<p>
-														We develop a fundamentally novel formulation of the sensor registration problem, Continuous Sensor Registration, that is continuous and models the action of an arbitrary Lie group on any smooth manifold. 
-														The continuity is achieved by treating the output of a given sensor as a function that lives on a reproducing kernel Hilbert space (RKHS). The outputs of two sensors are registered by integrating the flow in the Lie algebra and minimizing the norm of the difference between the two functions.
-														
-														Continuous Visual Odometry (CVO) is a special case of the Continuous Sensor Registration that takes in images from a commonly used camera, either stereo or monocular, as input and estimate the trajectory by accumulating the transformation matrix found between each frame.
-														<a href="https://github.com/MaaniGhaffari/cvo-rgbd" target="_blank">[Code]</a>
+														We contructed a novel feature layer combination used in Inverse Reinforcement Learning(IRL) to handle navigation problem in complicated and crowded dynamic environment. We seek to find a proposed local planner can not only help the robot navigate through crowded environment safely, but also follow some social norms that the robot would not affect normal people. Besides the feature map contruction, we also proposed a novel way to calculate the trajectory ranking loss term. This is added to the Max Entropy gradient calculation process to decrease the bad effect of non-optimal or suboptimal demonstration when applying the IRL algorithm. 
+														<a href="https://github.com/UMich-CURLY/Fetch_IRL" target="_blank">[Code]</a>
 													</p>
 													
 												</div>
-												<!-- <a href="images/cvo_traj.png" class="image"><img src="images/cvo_traj.png" alt="" /></a> -->
-											</article>
-											<article>
-													<a href="images/cassie_gazebo.png" class="image"><img src="images/cassie_gazebo.png" alt="" /></a>
-													<div class="inner">
-														<h4>Simulation of Bipedal Robot with Camera and Lidar Sensor</h4>
-														<p>
-															We built up a simulation environment in Gazebo and Mujoco that allowed us to test control and perception systems for the bipedal robot, Cassie Blue. This project aims to help increase the variety and amount of environments in which we can test Cassie’s performance. 
-														</p>
-													</div>
-											</article>
-											<article>
-												<a href="images/colonoscopy_3.png" class="image"><img src="images/colonoscopy_3.png" alt="" /></a>
-												<div class="inner">
-													<h4>Automated Colonoscopy Assistance</h4>
-													<p>
-														In colonoscopy procedures, the examining device can accidentally pierce the colon, which is known as perforation and has an incident rate of 0.2%. The goal of this project is to prevent the tip of the colonoscope from contacting the intestinal wall to reduce the perforation rate. We used the video feed from the colonoscopy device and implemented a computer vision algorithm to track the center of the colon in real-time and applied a PID controller to achieve the goal.
-													</p>
-												</div>
-												<!-- <a href="images/colonoscopy_2.png" class="image"><img src="images/colonoscopy_2.png" alt="" /></a> -->
-											</article>
-											<!-- <article>
-												<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-												<div class="inner">
-													<h4>Snapped dark matter in the wild</h4>
-													<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-												</div>
-											</article> -->
 										</div>
 								</div>
 							</section>
@@ -187,24 +156,15 @@
 									<h3>Publications</h3>
 									<h4>Conference Papers</h4>
 									<ul>
-										<p1><li><b>Tzu-Yuan Lin</b>, Ray Zhang, Justin Yu, and Maani Ghaffari. <b>"Legged Robot State Estimation using Invariant Kalman Filtering and Learned Contact Events."</b> In 5th Annual Conference on Robot Learning (CoRL), 2021. &nbsp; <a href="https://openreview.net/forum?id=yt3tDB67lc5" target="_blank">[Paper]</a><a href="https://github.com/UMich-CURLY/deep-contact-estimator" target="_blank">[Code]</a><a href="https://youtu.be/oVbP-Y8xT_E" target="_blank">[Video]</a></li></p1>
-										<p1><li>Ray Zhang, <b>Tzu-Yuan Lin</b>, Chien Erh Lin, Steven A Parkison, William Clark, Jessy W Grizzle, Ryan M Eustice, and Maani Ghaffari. <b> "A New Framework for Registration of Semantic Point Clouds from Stereo and RGB-D Cameras"</b> In 2021 IEEE International Conference on Robotics and Automation (ICRA), 2021, pp. 12214-12221. &nbsp; <a href="https://ieeexplore.ieee.org/document/9561929" target="_blank">[Paper]</a><a href="https://github.com/UMich-CURLY/unified_cvo" target="_blank">[Code]</a><a href="https://youtu.be/M3XZOAWyu04" target="_blank">[Video]</a></li></p1>
+										<p1><li>Tribhi Kathuria, <b>Yifan Xu*</b>, Theodor Chakhachiro*, X. Jessie Yang, and Maani Ghaffari <b>Providers-Clients-Robots: Framework for spatial-semantic planning for shared understanding in human-robot interaction</b> In 31st IEEE International Conference on Robot & Human Interactive Communication, 2022 &nbsp; <a href="https://arxiv.org/abs/2206.10767" target="_blank">[Paper]</a><a href="https://github.com/UMich-CURLY/spatial_interaction" target="_blank">[Code]</a></li></p1>
 										
 									</ul>
-									<h4>Preprints</h4>
-									<ul>
-										<p1><li>Xi Lin, Dingyi Sun, <b>Tzu-Yuan Lin</b>, Ryan M. Eustice, and Maani Ghaffari. <b>"A Keyframe-based Continuous Visual SLAM for RGB-D Cameras via Nonparametric Joint Geometric and Appearance Representation."</b> Submitted to 2020 Conference on Computer Vision and Pattern Recognition (CVPR). Seattle, USA, 2020.
-											<a href="https://arxiv.org/abs/1912.01064" target="_blank">[arXiv]</a></li></p1>
-										<p1><li><b>Tzu-Yuan Lin</b>, William Clark, Ryan M. Eustice, Jessy W. Grizzle, Anthony Bloch, and Maani Ghaffari. <b>"Adaptive Continuous Visual Odometry from RGB-D Images."</b> Submitted to 2020 International Conference on Robotics and Automation (ICRA). IEEE, Paris, France, 2020.
-											<a href="https://arxiv.org/abs/1910.00713" target="_blank">[arXiv]</a></li></p1>
-									</ul>
-									
 									
 								</div>
 							</section>
 
 						<!-- Four -->
-							<section id="projects">
+							<!-- <section id="projects">
 								<div class="container">
 									<h3>Projects</h3>
 									<div class="features">
@@ -259,77 +219,7 @@
 
 									</p>
 								</div>
-							</section>
-
-						<!-- Five -->
-							<section id="teaching">
-								<div class="container">
-									<h3>Teaching</h3>
-									<h4>ROB 530: Mobile Robotics -- Graduate Student Instructor</h4>
-									Robotics Institute, University of Michigan, Winter 2020 & Winter 2022
-									<br>
-									<p>
-										Theory and application of probabilistic techniques for autonomous mobile robotics. 
-										Topics include Bayesian filtering; stochastic representations of the environment; 
-										motion and sensor models for mobile robots; 
-										algorithms for mapping, localization; 
-										application to autonomous marine, ground, and air vehicles.
-									</p>
-									<h4>ME 2001: Engineering Mathematics -- Teaching Assistant</h4>
-									Mechanical Engineering, National Taiwan University, Fall 2017 & Spring 2017
-									<br>
-									<p>
-										Topics include Linear Algebra, Differential Equations, Laplace Transform, Fourier Series, and Real Analysis.
-									</p>
-
-									<h4>ME 1003: Engineering Graphics  -- Teaching Assistant</h4>
-									Mechanical Engineering, National Taiwan University, Spring 2017
-									<br>
-									<p>
-										This course talks about concepts in engineering drawing and teaches students a 3D drawing software - Autodesk Inventor.
-									</p>	
-
-									<h4>ME 2004: Machine Design Theory -- Teaching Assistant</h4>
-									Mechanical Engineering, National Taiwan University, Fall 2017
-									<br>
-									<br>
-
-									<h4>ME 2005: Thermodynamics -- Teaching Assistant</h4>
-									Mechanical Engineering, National Taiwan University, Fall 2017
-									<br>
-
-									
-
-
-								</div>
-							</section>
-
-						<!-- Six -->
-						<section id="outreach">
-								<div class="container">
-									<h3>Outreach</h3>
-									<div class="features">
-										<article>
-											<a href="images/outreach-discover.jpg" class="image"><img src="images/outreach-discover.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>UM Discover Engineering</h4>
-												<p>Helped design and organize a robotics coding activity for a two day camp for local high school students. Guided students in the workshop through the robotics line following and grasping task. The camp focused on increasing their interest in STEM, as well as over-viewing its academic and career paths.</a></p>
-											</div>
-										</article>
-											
-										<article>
-											<a href="images/outreach-kidzone.JPG" class="image"><img src="images/outreach-kidzone.JPG" alt="" /></a>
-											<div class="inner">
-												<h4>Ann Arbor Summer Festival KidZone</h4>
-												<p>Demonstrated current robotics sensors and explained their usage and theories to local families.</a></p>
-											</div>
-										</article>
-										</div>	
-								</div>
-							</section>
-
-					</div>
-
+							</section> -->
 				<!-- Footer -->
 					<section id="footer">
 						<div class="container">
