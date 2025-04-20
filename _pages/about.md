@@ -7,13 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-I am a junior undergraduate student majoring in Computer Science at the University of Michigan, Ann Arbor. My research interests include robot planning and human-robot interaction (HRI).<mark>I am looking for summer research opportunities in 2025.</mark>
+I am a junior undergraduate student majoring in Computer Science at the University of Michigan, Ann Arbor. My research interests include robot learning and human-robot interaction (HRI).<mark>I am looking for phd opportunities in 2026.</mark>
 
 You can find my CV here: [Qianwei Wang's CV](../assets/RESUME.pdf)
 
-I come from Ningbo, China, a beautiful coastal city. In my free time, I enjoy exploring delicious food (either by trying new restaurants or cooking myself). My family has been in the business of making pastries for over 50 years, so this hobby also has a bit of family tradition to it. Additionally, I like working out, playing basketball (at a casual level, mainly for fun), and I occasionally play Valorant (Iron rank) and Mount & Blade.
 
-# My pet
+# My pets
 <div style="width: 100%; display: flex; justify-content: flex-start;">
     <div style="margin-right: 30px;">
         <img src="../assets/dog1.png" alt="Dundun" style="width:500px;"/>
