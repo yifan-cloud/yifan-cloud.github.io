@@ -24,7 +24,7 @@ You can find my CV here: [Qianwei Wang's CV](../assets/RESUME.pdf)
 # Selected Publications
 <div style="display:flex; align-items:flex-start; margin-bottom:12px;">
   <div style="flex:1;">
-    <a href="https://arxiv.org/abs/2503.02106"><strong>OVAMOS: A Framework …</strong></a><br/>
+    <a href="https://arxiv.org/abs/2503.02106"><strong>OVAMOS: A Framework for Open-Vocabulary Multi-Object Search in Unknown Environments</strong></a><br/>
     <em>Submitted&nbsp;to&nbsp;IROS 2025</em>
   </div>
   <img src="../assets/gifs/ovamos.gif" alt="OVAMOS demo" style="width:300px; margin-left:16px;"/>
