@@ -14,7 +14,7 @@ Since 2023,I have been worked in [LIVE lab](https://live.engin.umich.edu/) and [
 
 I have worked in [ARM lab](https://arm.robotics.umich.edu/) at University of Michigan in the summer of 2024, advised by [Prof. Dmitry Berenson](https://scholar.google.com/citations?user=x-n9rIMAAAAJ&hl=en).
 
-Now I am working in [Advanced Agent-Robotics Technology Lab](https://www.cs.cmu.edu/%7Esoftagents/) at Carnegie Mellon University, mentored by [Dr. Bowen Li](https://jaraxxus-me.github.io/) and [Dr. Yaqi Xie](https://yaqi-xie.me/). 
+Now I am working in [Advanced Agent-Robotics Technology Lab](https://www.cs.cmu.edu/%7Esoftagents/) at Carnegie Mellon University, mentored by [Dr. Bowen Li](https://jaraxxus-me.github.io/) and [Dr. Yaqi Xie](https://yaqi-xie.me/), advised by [Prof. Katia Sycara](https://scholar.google.com/citations?user=VWv6a9kAAAAJ&hl=en).
 
 
 <mark>I am looking for phd opportunities in 2026.</mark>
