@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior undergraduate student majoring in Computer Science at the University of Michigan, Ann Arbor. My research interests include Decision Making in Robotic and Human-Robot Interaction.
+I am a junior undergraduate student majoring in Computer Science at the University of Michigan, Ann Arbor. My research interests include Decision Making in Robotic and Human-Robot Interaction.
 
 
 Since 2023,I have been worked in [LIVE lab](https://live.engin.umich.edu/) and [SICIS lab](https://sites.google.com/a/umich.edu/sicislab/) at University of Michigan, mentored by [Dr. Yifan Xu](https://scholar.google.com/citations?hl=en&user=RYKMFp4AAAAJ&view_op=list_works&sortby=pubdate), advised by [Prof. Vineet R. Kamat](https://scholar.google.com/citations?user=L7cjgPEAAAAJ&hl=en) and [Prof. Carol C. Menassa](https://scholar.google.com/citations?user=hxMB7FQAAAAJ&hl=en).
@@ -21,11 +21,15 @@ Now I am working in [Advanced Agent-Robotics Technology Lab](https://www.cs.cmu.
 
 You can find my CV here: [Qianwei Wang's CV](../assets/RESUME.pdf)
 
+# Selected Publications
+<div style="display:flex; align-items:flex-start; margin-bottom:12px;">
+  <div style="flex:1;">
+    <a href="https://arxiv.org/abs/2503.02106"><strong>OVAMOS: A Framework …</strong></a><br/>
+    <em>Submitted&nbsp;to&nbsp;IROS 2025</em>
+  </div>
+  <img src="../assets/gifs/ovamos.gif" alt="OVAMOS demo" style="width:300px; margin-left:16px;"/>
+</div>
 
-
-
-# Publications
-- [OVAMOS: A Framework for Open-Vocabulary Multi-Object Search in Unknown Environments](https://arxiv.org/abs/2503.02106) <span style="float: right;">Submitted to IROS2025</span>
 - [Point2Graph: An End-to-end Point Cloud-based 3D Open-Vocabulary Scene Graph for Robot Navigation](https://www.arxiv.org/abs/2409.10350) <span style="float: right;">Accepted by ICRA2025</span>
 - [Socially-Aware Shared Control Navigation for Assistive Mobile Robots in the Built Environment](https://arxiv.org/abs/2405.17279) <span style="float: right;">Accepted by JCCE</span>
 - [A Shared Autonomy based Wheelchair Navigation Stack considering User Preference and Control]() <span style="float: right;">Accepted by i3CE</span>
