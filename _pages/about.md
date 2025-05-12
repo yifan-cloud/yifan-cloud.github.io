@@ -22,14 +22,7 @@ Now I am working in [Advanced Agent-Robotics Technology Lab](https://www.cs.cmu.
 You can find my CV here: [Qianwei Wang's CV](../assets/RESUME.pdf)
 
 # Selected Publications
-<div style="display:flex; align-items:flex-start; margin-bottom:12px;">
-  <div style="flex:1;">
-    <a href="https://arxiv.org/abs/2503.02106"><strong>OVAMOS: A Framework for Open-Vocabulary Multi-Object Search in Unknown Environments</strong></a><br/>
-    <em>Submitted&nbsp;to&nbsp;IROS 2025</em>
-  </div>
-  <img src="../assets/gifs/ovamos.gif" alt="OVAMOS demo" style="width:300px; margin-left:16px;"/>
-</div>
-
+- [OVAMOS: A Framework for Open-Vocabulary Multi-Object Search in Unknown Environments](https://arxiv.org/abs/2503.02106) <span style="float: right;">Submmited to IROS2025</span>
 - [Point2Graph: An End-to-end Point Cloud-based 3D Open-Vocabulary Scene Graph for Robot Navigation](https://www.arxiv.org/abs/2409.10350) <span style="float: right;">Accepted by ICRA2025</span>
 - [Socially-Aware Shared Control Navigation for Assistive Mobile Robots in the Built Environment](https://arxiv.org/abs/2405.17279) <span style="float: right;">Accepted by JCCE</span>
 - [A Shared Autonomy based Wheelchair Navigation Stack considering User Preference and Control]() <span style="float: right;">Accepted by i3CE</span>
