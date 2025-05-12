@@ -10,7 +10,7 @@ redirect_from:
 I am a junior undergraduate student majoring in Computer Science at the University of Michigan, Ann Arbor. My research interests include Decision Making in Robotic and Human-Robot Interaction.
 
 
-Since 2023,I have been worked in [LIVE lab](https://live.engin.umich.edu/) and [SICIS lab](https://sites.google.com/a/umich.edu/sicislab/) at University of Michigan, mentored by [Dr. Yifan Xu](https://scholar.google.com/citations?hl=en&user=RYKMFp4AAAAJ&view_op=list_works&sortby=pubdate), advised by [Prof. Vineet R. Kamat](https://scholar.google.com/citations?user=L7cjgPEAAAAJ&hl=en) and [Prof. Carol C. Menassa](https://scholar.google.com/citations?user=hxMB7FQAAAAJ&hl=en).
+Since 2023,I have been working in [LIVE lab](https://live.engin.umich.edu/) and [SICIS lab](https://sites.google.com/a/umich.edu/sicislab/) at University of Michigan, mentored by [Dr. Yifan Xu](https://scholar.google.com/citations?hl=en&user=RYKMFp4AAAAJ&view_op=list_works&sortby=pubdate), advised by [Prof. Vineet R. Kamat](https://scholar.google.com/citations?user=L7cjgPEAAAAJ&hl=en) and [Prof. Carol C. Menassa](https://scholar.google.com/citations?user=hxMB7FQAAAAJ&hl=en).
 
 I have worked in [ARM lab](https://arm.robotics.umich.edu/) at University of Michigan in the summer of 2024, advised by [Prof. Dmitry Berenson](https://scholar.google.com/citations?user=x-n9rIMAAAAJ&hl=en).
 
